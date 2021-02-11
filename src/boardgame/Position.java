@@ -28,7 +28,7 @@ public class Position {
 	}
 
 	@Override
-	public String toString() {
+	public String toString() {          // estou sobrescevendo o método "toString" que pertence a classe Object
 		return row + "," + column;
 	}
 	
